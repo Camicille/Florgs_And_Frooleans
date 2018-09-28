@@ -34,8 +34,8 @@ public class Boid extends Actor
         speed = speed + 1;
         Greenfoot.playSound("manama.wav");
         
-        MyWorld myWorld = (MyWorld)getWorld();
-        myWorld.countScore(20);
+        CloudWorld cloudWorld = (CloudWorld)getWorld();
+        cloudWorld.countScore(20);
     }
 }
 public void turnAtEdge() {

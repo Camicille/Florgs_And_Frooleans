@@ -1,12 +1,12 @@
 
 import greenfoot.*;
 
-public class MyWorld extends greenfoot.World
+public class CloudWorld extends greenfoot.World
 {
     private int score = 0;
     private int points;
     
-    public MyWorld(){    
+    public CloudWorld(){    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(600, 400, 1); 
         

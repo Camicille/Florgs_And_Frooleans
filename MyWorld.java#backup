@@ -1,16 +1,16 @@
 import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
 
 // /**
- // * Write a description of class MyWorld here.
+ // * Write a description of class CloudWorld here.
  // * 
  // * @author (your name) 
  // * @version (a version number or a date)
  // */
-public class MyWorld extends greenfoot.World
+public class CloudWorld extends greenfoot.World
 {
 
     /**
-     * Constructor for objects of class MyWorld.
+     * Constructor for objects of class CloudWorld.
      * 
      */
     //Sets up to instantiate each at beginning of game
@@ -20,7 +20,7 @@ public class MyWorld extends greenfoot.World
     
     private int randomWidth = Greenfoot.getRandomNumber(600);
     private int randomHeight = Greenfoot.getRandomNumber(400);
-    public MyWorld()
+    public CloudWorld()
     {    
 
         

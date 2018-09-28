@@ -35,8 +35,8 @@ public class Froolean extends Actor{
             getWorld().addObject(new Froolean(), Greenfoot.getRandomNumber(600),Greenfoot.getRandomNumber(400));
             getWorld().addObject(new Boid(),Greenfoot.getRandomNumber(599), Greenfoot.getRandomNumber(399));
             
-            MyWorld myWorld = (MyWorld)getWorld();
-            myWorld.countScore(-50);
+            CloudWorld cloudWorld = (CloudWorld)getWorld();
+            cloudWorld.countScore(-50);
         }
     }
 }
